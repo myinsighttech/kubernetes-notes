@@ -19,7 +19,7 @@
 
 ### Install Terraform
 ```sh
-sudo adduser eksadmin
+sudo useradd eksadmin
 sudo echo "eksadmin  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/eksadmin
 sudo su - eksadmin
 ```
