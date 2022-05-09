@@ -91,7 +91,8 @@ $ kubectl apply -f clusterautoscaler.yml
 ```sh
 $ terraform destroy --auto-approve 
 ```
-
+#Run this command instead of copying the kube/config file.:
+aws eks update-kubeconfig --name <EKSClusteName> --region <regionName>
 
 # EKS Getting Started Guide Configuration
 
